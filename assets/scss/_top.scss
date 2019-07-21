@@ -1,0 +1,41 @@
+    
+.main__content {
+    margin: 0 auto;
+    width: 1200px;
+
+    .section__template {
+        .inner__container {
+            .contact__form {
+                @include dFlex;
+                width: 100%;
+
+                .col {
+                    width: 33.33%;
+
+                    &.full--width {
+                        width: 100%;
+                    }
+
+                    &.label {
+                        max-width: 300px;
+                    }
+
+                    &.input {
+                        width: calc(100% - 300px);
+                    }
+
+                    .row {
+                        padding: 20px 0;
+
+                        &.label {
+                            background: lightgray;
+                        }
+
+                        &.input {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

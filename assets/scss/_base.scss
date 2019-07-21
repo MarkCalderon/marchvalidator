@@ -1,0 +1,17 @@
+ @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+$fontFamily: 'Oswald', sans-serif;
+
+/* Base Colours */
+$lightgreen: #98ffde21;
+
+
+body, div, h2, input {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin dFlex {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

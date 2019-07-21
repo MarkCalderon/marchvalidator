@@ -1,0 +1,28 @@
+header {
+    .inner__container {
+        @include dFlex;
+        align-items: center;
+        height: 50px;
+        background: $lightgreen;
+
+        .site__title__container {
+            padding-left: 10px;
+            box-sizing: border-box;
+            flex-basis: 350px;
+
+            .site__title {
+                font: normal 20px $fontFamily;
+            }
+        }
+
+        .site__message__container {
+            display: inline-block;
+            @include dFlex;
+            flex-grow: 1;
+
+            .site__message {
+                font: normal 15px $fontFamily;
+            }
+        }
+    }
+}
